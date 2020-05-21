@@ -1,0 +1,8 @@
+<manifest
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        package="at.sunilson.example1" >
+
+    <application>
+        <activity android:name=".Example1Activity" />
+    </application>
+</manifest>

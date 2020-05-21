@@ -1,2 +1,3 @@
-# material-transitions-demo
-Test app for material transitions
+# Material Motion Demo
+
+Test app for material motion with the material component library
