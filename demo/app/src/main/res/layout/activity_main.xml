@@ -61,6 +61,30 @@
         </LinearLayout>
 
         <LinearLayout
+                android:id="@+id/container_transform_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?selectableItemBackground"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+            <TextView
+                    style="@style/TextAppearance.MaterialComponents.Headline5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Container Transform 3" />
+
+            <TextView
+                    style="@style/TextAppearance.MaterialComponents.Subtitle1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="View to view search bar" />
+
+        </LinearLayout>
+
+        <LinearLayout
                 android:id="@+id/shared_axis_1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

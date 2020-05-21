@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import at.sunilson.example1.Example1Activity
 import at.sunilson.example2.Example2Activity
 import at.sunilson.example3.Example3Activity
+import at.sunilson.example4.Example4Activity
 import at.sunilson.materialmotiondemo.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -29,6 +30,10 @@ class MainActivity : AppCompatActivity() {
 
         binding.containerTransform2.setOnClickListener {
             startActivity(Intent(this, Example2Activity::class.java))
+        }
+
+        binding.containerTransform3.setOnClickListener {
+            startActivity(Intent(this, Example4Activity::class.java))
         }
 
         binding.sharedAxis1.setOnClickListener {
