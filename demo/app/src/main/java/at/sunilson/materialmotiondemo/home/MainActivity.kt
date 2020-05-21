@@ -34,10 +34,6 @@ class MainActivity : AppCompatActivity() {
         binding.sharedAxis1.setOnClickListener {
             startActivity(Intent(this, Example3Activity::class.java))
         }
-
-        binding.sharedAxis2.setOnClickListener {
-            startActivity(Intent(this, Example2Activity::class.java))
-        }
     }
 
     override fun onDestroy() {
